@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+# 實機截圖含真人資料，不進版控
+.scratch/line-chat-generator/reference/
+*.tsbuildinfo
+# 字型比較頁嵌了實機截圖片段；觀察紀錄寫了真實聊天室名稱
+.scratch/line-chat-generator/assets/font-compare.html
+.scratch/line-chat-generator/research/01-reference-observations.md
