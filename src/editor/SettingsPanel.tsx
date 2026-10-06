@@ -24,7 +24,7 @@ export function SettingsPanel({ conversation: c, onChange }: Props) {
   return (
     <section className="panel">
       <h2>對話設定</h2>
-      <div className="grid3">
+      <div className="grid3 mode-row">
         <label className="f">模式
           <select value={c.mode} onChange={e => setMode(e.target.value as ConversationMode)}>
             <option value="personal" disabled={!canSwitchMode(c, 'personal')}>{canSwitchMode(c, 'personal') ? '個人對話' : '個人對話（只能有一位對方）'}</option>
